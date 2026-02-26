@@ -1,8 +1,8 @@
-import { createBottomTabNavigator } from "react-navigation-tabs";
 import React from 'react';
 import Home from '../screens/Home';
 import About from '../screens/About';
 import Contact from '../screens/Contact';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator();
 
@@ -15,3 +15,5 @@ const BottomTabNavigator = () => {
         </Tab.Navigator>
     )
 }
+
+export default BottomTabNavigator;
